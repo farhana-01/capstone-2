@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+
+:root {
+  --primary_color: #005F5E;
+}
+.root-1{
+  background-color: #005F5E;
+}
+.root-3{
+  background-color: #005F5E;
+}
+
+.custom-width {
+  width: 20%;
+}
+
+.icon-1:hover {
+  background-color: rgb(219, 217, 217)
+}
+
+.hero-1 {
+  background-image: url(../imges/hero.img.1.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  height: 600px;
+  background-position: center;
+  /* animation:hero-1 15s ease 0s 1 normal forwards; */
+}
+
+.hero-2 {
+  background-image: url(../imges/hero.img.2.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  height: 600px;
+  background-position: center;
+  /* animation:hero-2 15s ease 0s 1 normal forwards; */
+}
+
+.btn-1 {
+  position: relative;
+  bottom: 400px;
+  /* margin-left: 400px;  */
+}
+
+.btn-2 {
+  position: relative;
+  bottom: 400px;
+  margin-left: 400px;
+}
+
+.pos {
+  top: 0%;
+  right: 0%;
+  color: rgb(98, 131, 77);
+}
+
+.div-1 {
+  position: relative;
+}
+
+.div-2 {
+  position: absolute;
+  top: 1650px;
+}
+
+.pic {
+  background-image: url(../imges/img-5-1_768x.webp);
+  background-position: center;
+  width: 100%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  animation: pic 20s ease 0s 1 normal forwards;
+
+
+}
+
+.pic-2 {
+  background-image: url(../imges/img-3.webp);
+  background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+  animation: pic-2 20s ease 0s 1 normal forwards;
+}
+
+.pic-3 {
+  background-image: url(../imges/lamp.3.webp);
+  background-position: center;
+  width: 100%;
+  height: 86%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  animation: pic-3 20s ease 0s 1 normal forwards;
+}
+
+
+.gelop-1 {
+  margin-bottom: 10%;
+  background-image: url(../imges/gelop-img-2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+  animation: gelop-1 15s ease 0s 1 normal forwards;
+
+}
+
+.gelop-2 {
+  margin-bottom: 10%;
+  background-image: url(../imges/gelop-img.1.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 280px;
+  animation: gelop-2 15s ease 0s 1 normal forwards;
+}
+
+.img-crd-2 {
+  padding-top: 30%;
+}
+
+.btn-wive {
+  color: var(--primary_color);
+  background: none;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-wive:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+}
+
+.btn-wive-2 {
+  color: var(--primary_color);
+  background-color: #005F5E;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-wive:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+}
+
+.card-1 {
+  --color-shadow-rgb: 0, 0, 0;
+  box-shadow: 0 0 25px rgba(var(--color-shadow-rgb), .08);
+  padding: 4rem 15px;
+
+}
+
+
+.card-2 {
+  --color-shadow-rgb: 0, 0, 0;
+  box-shadow: 0 0 25px rgba(var(--color-shadow-rgb), .08);
+  padding: 4rem 15px;
+}
+
+.card-3 {
+  --color-shadow-rgb: 0, 0, 0;
+  box-shadow: 0 0 25px rgba(var(--color-shadow-rgb), .08);
+  padding: 4rem 15px;
+}
+
+
+.deals {
+  background-color: #F5F5F5;
+  margin-top: 15%;
+}
+
+.gram {
+  padding-top: 8%;
+}
+
+.icons-4 :hover {
+  color: #005F5E;
+}
+
+.img-12 img {
+  animation: img-12 5s ease 0s 1 normal forwards;
+}
+
+.footer {
+  padding-top: 10%;
+}
+
+
+/* .tex{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: tex 5s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes tex {
+  from {left: 0px;}
+  to {left: 300px;}
+} */
+
+@media (max-width: 575.98px) {
+  .hero-1 {
+    height: auto;
+  }
+
+  .hero-2 {
+    height: auto;
+  }
+}
+
+@keyframes slide-in {
+  0% {
+    transform: scale(1)
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes img-12 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@keyframes hero-1 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+
+@keyframes hero-2 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+@keyframes pic {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+@keyframes pic-2 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+@keyframes pic-3 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+@keyframes gelop-1 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+@keyframes gelop-2 {
+  0% {
+    background-position: center bottom;
+    background-size: 100%;
+  }
+
+  100% {
+    background-position: center bottom;
+    background-size: 150%;
+  }
+}
+
+
+
+/* page-2 */
+
+.ARMCHAIR {
+  background-color: #F5F5F5;
+  padding: 100px;
+}
+
+.box-3 :hover {
+  background-color: #e6e7e7;
+  color: #F5F5F5;
+}
+
+.btn-wive-2 {
+  color: #0a5d5d;
+  border-color: var(--color-secondary-button-border);
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 100px;
+
+}
+
+.btn-wive-2:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+}
+
+.btn-wive-3 {
+  color: #0a5d5d;
+  border-color: var(--color-secondary-button-border);
+  background-color: white;
+  cursor: pointer;
+  padding: 5px 100px;
+
+
+
+}
+
+.btn-wive-3:hover {
+  background-color: #005F5E;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+/* other-pages css */
+
+
+
+.about-hero {
+  background-image: url(/images/about_hero.webp);
+  width: 100%;
+}
+
+
+.pera {
+  padding: 60px;
+  margin-right: 80%;
+}
+
+.why {
+  margin-top: 170px;
+}
+
+
+/* .plece-two{
+width: 150%; */
+
+
+/* blog pages */
+
+
+.two-btn {
+  margin-left: 12%;
+}
+
+.font {
+  font-size: 12px;
+}
+
+.font-1 {
+  font-size: 5px;
+}
+
+
+.search-button {
+  margin-left: 15%;
+}
+.classsss{
+  margin-left: 40%;
+}
+.classssss{
+  margin-left: 44%;
+}
